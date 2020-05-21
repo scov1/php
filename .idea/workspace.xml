@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0e18b10a-3cdc-47d6-bd3d-0594206f67a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/IKind.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Anaconda.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Animal.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Bee.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Owl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/classes/Tarantula.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/IBird.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/IFish.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/IInsects.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/ISnake.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interfaces/ISpider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traits/CanCobweb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traits/CanCrawl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traits/CanFly.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traits/CanHoney.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traits/CanSwim.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traits/HasBeak.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traits/HasFins.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traits/HasPoison.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traits/HasScales.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traits/hasNectar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Lesson2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autoload.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Collections.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Counter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/IHasAge.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/IHasName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/IPerson.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Link.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Queue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/Tag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/TagAttributes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/TagBody.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/TagName.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classes/baseTag.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cASDcS4NSf83I5cmqcAEBbXixZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e18b10a-3cdc-47d6-bd3d-0594206f67a9" name="Default Changelist" comment="" />
+      <created>1589969786080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589969786080</updated>
+      <workItem from="1589969788498" duration="4301000" />
+      <workItem from="1590037803168" duration="4261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser" timestamp="1590049185780">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="45" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590049185780" />
+    <state x="468" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590049101591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="468" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728@0.0.1366.728" timestamp="1590049101591" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1589974100352">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589974100352" />
+    <state x="831" y="86" key="NewPhpClassDialog" timestamp="1590049155440">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="831" y="86" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1590049155440" />
+    <state x="518" y="286" key="NewPhpFileDialog" timestamp="1590042838483">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="518" y="286" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1590042838483" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1590042432693">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1590042432693" />
+  </component>
+</project>
