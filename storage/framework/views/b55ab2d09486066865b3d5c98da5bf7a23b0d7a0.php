@@ -26,5 +26,14 @@
     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 </ul>
 
+<div>
+    <?php $__env->startComponent('components.alert',['type'=>'success']); ?>
+        <strong><?php echo e($car . PHP_EOL); ?></strong>
+    <?php if (isset($__componentOriginalc52bd2838f3f04f134d65e73fedfb6e6c096b407)): ?>
+<?php $component = $__componentOriginalc52bd2838f3f04f134d65e73fedfb6e6c096b407; ?>
+<?php unset($__componentOriginalc52bd2838f3f04f134d65e73fedfb6e6c096b407); ?>
+<?php endif; ?>
+<?php echo $__env->renderComponent(); ?>
+</div>
 
 <?php /**PATH D:\Open\OpenServer\domains\laravel\resources\views/index.blade.php ENDPATH**/ ?>

@@ -25,4 +25,9 @@
     @endforeach
 </ul>
 
+<div>
+    @component('components.alert',['type'=>'success'])
+        <strong>{{$car . PHP_EOL}}</strong>
+    @endcomponent
+</div>
 
