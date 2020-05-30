@@ -1,3 +1,4 @@
+
 <?php if($errors->any()): ?>
     <ul style="color:red;">
         <?php $__currentLoopData = $errors->all(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $error): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
@@ -26,14 +27,17 @@
     <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 </ul>
 
-<div>
-    <?php $__env->startComponent('components.alert',['type'=>'success']); ?>
-        <strong><?php echo e($car . PHP_EOL); ?></strong>
-    <?php if (isset($__componentOriginalc52bd2838f3f04f134d65e73fedfb6e6c096b407)): ?>
-<?php $component = $__componentOriginalc52bd2838f3f04f134d65e73fedfb6e6c096b407; ?>
-<?php unset($__componentOriginalc52bd2838f3f04f134d65e73fedfb6e6c096b407); ?>
+<?php $__env->startComponent('components.car',['brand'=>$car->brand,
+'model'=>$car->model,
+'year'=>$car->year,
+'color'=>$car->color
+]); ?>
+
+<?php if (isset($__componentOriginala2c7650c75a16499f444d11ecb617c82394bd197)): ?>
+<?php $component = $__componentOriginala2c7650c75a16499f444d11ecb617c82394bd197; ?>
+<?php unset($__componentOriginala2c7650c75a16499f444d11ecb617c82394bd197); ?>
 <?php endif; ?>
 <?php echo $__env->renderComponent(); ?>
-</div>
+
 
 <?php /**PATH D:\Open\OpenServer\domains\laravel\resources\views/index.blade.php ENDPATH**/ ?>

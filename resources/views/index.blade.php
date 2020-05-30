@@ -1,3 +1,4 @@
+
 @if($errors->any())
     <ul style="color:red;">
         @foreach($errors->all() as $error)
@@ -25,9 +26,12 @@
     @endforeach
 </ul>
 
-<div>
-    @component('components.alert',['type'=>'success'])
-        <strong>{{$car . PHP_EOL}}</strong>
-    @endcomponent
-</div>
+@component('components.car',['brand'=>$car->brand,
+'model'=>$car->model,
+'year'=>$car->year,
+'color'=>$car->color
+])
+
+@endcomponent
+
 
