@@ -46,7 +46,7 @@ class PostController extends Controller
             $fileToStore = $fileName .'_'.time().'.'.$exc;
             $path = $request->file('img')->storeAs('public/img',$fileToStore);
         }else{
-            $file='noImage.jpg';
+            $fileToStore='noImage.jpg';
         }
 
         $post = new Post;
