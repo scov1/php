@@ -1,10 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Auth;
 
 
+Auth::routes();
 
-Route::get('/','CarController@index')
-    ->name('index');
-Route::post('/cars/create','CarController@storeCar')
-    ->name('cars.store');
+
+Route::redirect('/','/cars');
+Route::resource('cars','CarController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -1,37 +1,65 @@
+@extends('layouts.app')
 
-@if($errors->any())
-    <ul style="color:red;">
-        @foreach($errors->all() as $error)
-            <li>{{$error}}</li>
-        @endforeach
-    </ul>
-@endif
+@section('content')
+<div class="container d-flex align-items-center mb-3">
+    <a href="{{route('cars.create')}}" class=" ml-auto btn btn-success">
+        Добавить машину
+    </a>
+</div>
 
-<link href="{{ asset('/css/styles.css') }}" rel="stylesheet">
+@forelse($cars as $car)
 
+    @if($loop->first)
+        <table class="table table-bordered table-striped">
+            <thead class="thead-dark">
+            <tr>
+                <th>#</th>
+                <th scope="col">Марка</th>
+                <th scope="col">Модель</th>
+                <th scope="col">Год выпуска</th>
+                <th scope="col">Цвет</th>
+                <th scope="col"></th>
 
-<form  class="form-group" action="{{route('cars.store')}}" method="POST">
-    @csrf
-    <input type="text" name="brand" placeholder="Марка">
-    <input type="text" name="model" placeholder="Модель">
-    <input type="number" name="year" placeholder="Год выпуска">
-    <input type="text" name="color" placeholder="Цвет">
-    <button>Добавить машину</button>
-</form>
-<ul>
-    @foreach($cars as $car)
-        <li>
-            {{$car->brand}},{{$car->model}},{{$car->year}},{{$car->color}}
-        </li>
-    @endforeach
-</ul>
+            </tr>
+            </thead>
+            <tbody>
+            @endif
+            <tr>
+                <td class="p-2 text-center">{{ $car->id }}</td>
+                <td class="pd-0">
+                    <a href="{{ route('cars.show', $car) }}" class="d-block p-2 w-100">
+                        {{ $car->brand }}
+                    </a>
+                </td>
+                <td class="p-2">{{ $car->model }}</td>
+                <td class="p-2">{{ $car->year }}</td>
+                <td class="p-2">{{ $car->color }}</td>
+                <td>
+                    <form class="ml-auto" action="{{ route('cars.destroy', $car) }}" method="POST">
+                        @csrf
+                        @method('DELETE')
 
-@component('components.car',['brand'=>$car->brand,
-'model'=>$car->model,
-'year'=>$car->year,
-'color'=>$car->color
-])
+                        <div class="btn-group">
+                            @can('update', $car)
+                                <a class="btn btn-info" href="{{ route('cars.edit', $car) }}">Редактировать</a>
+                            @endcan
+                            @can('delete', $car)
+                                <button class="btn btn-danger" style="margin-left: 10%">Удалить</button>
+                            @endcan
+                        </div>
+                    </form>
+                </td>
+            </tr>
 
-@endcomponent
+            @if($loop->last)
+            </tbody>
+        </table>
+    @endif
 
+@empty
+    <div class="alert alert-secondary">
+        У Вас пока нет ни одной карты животного :(
+    </div>
 
+@endforelse
+@endsection
